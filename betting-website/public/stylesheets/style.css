@@ -1,8 +1,41 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-top: 4vh; }
 
-a {
-  color: #00B7FF; }
+nav a {
+  color: white;
+  margin-right: 3vw;
+  font-size: 1.5em; }
+
+nav {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
+.divLogin {
+  margin-top: 7vh;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 60vh;
+  width: 50vw; }
+
+.divLogin h2 {
+  align-self: flex-start;
+  margin: 2vh 0 0 1vw; }
+
+.loginFormClass {
+  margin-top: 3vh;
+  font-family: sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
